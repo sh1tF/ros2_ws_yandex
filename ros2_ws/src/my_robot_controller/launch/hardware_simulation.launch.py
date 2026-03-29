@@ -37,4 +37,17 @@ def generate_launch_description():
             name='wheel_odometry',
             output='screen'
         ),
+
+        Node(
+            package='my_robot_controller',
+            executable='tof_simulator',
+            name='tof_simulator',
+            output='screen'
+        ),
+        Node(
+            package='my_robot_controller',
+            executable='dtof_lidar_simulator',
+            name='dtof_lidar_simulator',
+            output='screen'
+        ),
     ])

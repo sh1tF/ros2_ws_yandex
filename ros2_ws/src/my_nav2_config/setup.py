@@ -1,6 +1,6 @@
-from setuptools import find_packages, setup
 import os
 from glob import glob
+from setuptools import setup, find_packages
 
 package_name = 'my_nav2_config'
 
@@ -14,6 +14,10 @@ setup(
         ('share/' + package_name, ['package.xml']),
         (os.path.join('share', package_name, 'launch'), 
             glob('launch/*.launch.py')),
+        (os.path.join('share', package_name, 'config'), 
+            glob('config/*.yaml')),
+        (os.path.join('share', package_name, 'maps'), 
+            glob('maps/*')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -21,13 +25,10 @@ setup(
     maintainer_email='student@todo.todo',
     description='TODO: Package description',
     license='TODO: License declaration',
-    extras_require={
-        'test': [
-            'pytest',
-        ],
-    },
+    tests_require=['pytest'],
     entry_points={
         'console_scripts': [
         ],
     },
 )
+
