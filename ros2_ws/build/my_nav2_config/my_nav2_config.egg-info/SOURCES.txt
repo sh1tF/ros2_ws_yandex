@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/my_nav2_config/my_nav2_config.egg-info/PKG-INFO
+../../build/my_nav2_config/my_nav2_config.egg-info/SOURCES.txt
+../../build/my_nav2_config/my_nav2_config.egg-info/dependency_links.txt
+../../build/my_nav2_config/my_nav2_config.egg-info/requires.txt
+../../build/my_nav2_config/my_nav2_config.egg-info/top_level.txt
+../../build/my_nav2_config/my_nav2_config.egg-info/zip-safe
+launch/navigation.launch.py
+my_nav2_config/__init__.py
+resource/my_nav2_config
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

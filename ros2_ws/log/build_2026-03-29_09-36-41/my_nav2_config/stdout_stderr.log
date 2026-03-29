@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/my_nav2_config/my_nav2_config.egg-info
+writing ../../build/my_nav2_config/my_nav2_config.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_nav2_config/my_nav2_config.egg-info/dependency_links.txt
+writing requirements to ../../build/my_nav2_config/my_nav2_config.egg-info/requires.txt
+writing top-level names to ../../build/my_nav2_config/my_nav2_config.egg-info/top_level.txt
+writing manifest file '../../build/my_nav2_config/my_nav2_config.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_nav2_config/my_nav2_config.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_nav2_config/my_nav2_config.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/student/ros2_ws/build/my_nav2_config/build
+creating /home/student/ros2_ws/build/my_nav2_config/build/lib
+creating /home/student/ros2_ws/build/my_nav2_config/build/lib/my_nav2_config
+copying my_nav2_config/__init__.py -> /home/student/ros2_ws/build/my_nav2_config/build/lib/my_nav2_config
+running install
+running install_lib
+creating /home/student/ros2_ws/install/my_nav2_config/lib/python3.12/site-packages/my_nav2_config
+copying /home/student/ros2_ws/build/my_nav2_config/build/lib/my_nav2_config/__init__.py -> /home/student/ros2_ws/install/my_nav2_config/lib/python3.12/site-packages/my_nav2_config
+byte-compiling /home/student/ros2_ws/install/my_nav2_config/lib/python3.12/site-packages/my_nav2_config/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/student/ros2_ws/install/my_nav2_config/share/ament_index
+creating /home/student/ros2_ws/install/my_nav2_config/share/ament_index/resource_index
+creating /home/student/ros2_ws/install/my_nav2_config/share/ament_index/resource_index/packages
+copying resource/my_nav2_config -> /home/student/ros2_ws/install/my_nav2_config/share/ament_index/resource_index/packages
+copying package.xml -> /home/student/ros2_ws/install/my_nav2_config/share/my_nav2_config
+creating /home/student/ros2_ws/install/my_nav2_config/share/my_nav2_config/launch
+copying launch/navigation.launch.py -> /home/student/ros2_ws/install/my_nav2_config/share/my_nav2_config/launch
+running install_egg_info
+Copying ../../build/my_nav2_config/my_nav2_config.egg-info to /home/student/ros2_ws/install/my_nav2_config/lib/python3.12/site-packages/my_nav2_config-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/student/ros2_ws/build/my_nav2_config/install.log'
